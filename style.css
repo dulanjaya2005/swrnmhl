@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.top-bar {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  display: block; /* so it looks like a full-width bar */
+  color: black; /* Optional: to control link color */
+}
+
+
+ /* Header */
+.header {
+  background-color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #666;
+}
+
+.social-icons svg {
+  width: 18px;
+  height: 18px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #333;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+
+.logo p {
+  font-size: 12px;
+  color: #999;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-icons a {
+  color: #666;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header-icons svg {
+  width: 22px;
+  height: 22px;
+}
+
+  /* Navigation */
+.nav {
+  background-color: white;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.nav a {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #333;
+}
+
+
+
+/* nav bar end */
+
+.new-arrivals {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.new-arrivals h2 {
+  font-size: 28px;
+  margin-top: -50px;
+  margin-left: -1000px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p{
+    margin-left: -1000px;
+    margin-top: -20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.product-card {
+  max-width: 220px;
+  background: #fff;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  font-size: 15px;
+  margin: 10px 0 5px;
+  color: #333;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+
+.product-card .price {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.img {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 418px;
+  background-image: url("https://www.swarnamahal.lk/cdn/shop/files/ashirwada_gold_pendants_banner.jpg?v=1620211539&width=2000");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; /* මෙන්න මෙය දාලා scroll එක නැති කරන්න */
+}
+
+.img1{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 300px;
+  margin-top: px;
+  background-image: url("https://www.swarnamahal.lk/cdn/shop/files/pearl_collection_banner_2_850f675a-4e17-4174-b109-5738ce06f143.jpg?v=1630576043&width=1950");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; /* මෙන්න මෙය දාලා scroll එක නැති කරන්න */
+}
+
+.h4{
+    margin-left: 1020px;
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.p1{
+    margin-left: 840px;
+    margin-top: -30px;
+}
+
+.card4{
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 300px;
+  background-image: url("https://www.swarnamahal.lk/cdn/shop/files/bridal_collection.png?v=1614329305&width=1080");
+  background-size: cover;
+}
+
+.card1{
+  /* border: 1px solid rgb(43, 0, 255); */
+  background-color: #946923;
+  width: 50%;
+  height: 300px;
+  margin-top: -300px;
+  margin-left: 632px;
+}
+
+
+.card2{
+  /* border: 1px solid red; */
+  background-color: #333;
+  width: 50%;
+  height: 300px;
+}
+
+.card3{
+  /* border: 1px solid rgb(43, 0, 255); */
+  background-image: url("img/aura-new-two.webp");
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+  margin-top: -300px;
+  margin-left: 632px;
+}
+
+.SOUL{
+  margin-top: -500px;
+  margin-left: 930px;
+  color: #fff;
+
+}
+
+.AURA{
+  margin-top: 155px;
+  color: #fff;
+  margin-left: 100px;
+}
+
+.Shop{
+  margin-top: 120px;
+  color: #333;
+  /* border: 1px solid red; */
+  margin-left: 550px;
+}
+
+.c1{
+  /* border: 1px solid red; */
+  width: 350px;
+  height: 300px;
+  margin-left: 50px;
+  background-image: url("https://www.swarnamahal.lk/cdn/shop/collections/necklace_pendants.png?v=1591085848&width=720");
+  background-size: cover;
+  transition: transform 0.5s ease; /* Smooth zoom */
+}
+
+.c2{
+  /* border: 1px solid rgb(0, 0, 0); */
+  width: 350px;
+  height: 300px;
+  margin-left: 450px;
+  margin-top: -300px;
+  background-image: url("https://www.swarnamahal.lk/cdn/shop/collections/collection_rings_bracelets.png?v=1591085840&width=720");
+  background-size: cover;
+  transition: transform 0.5s ease; /* Smooth zoom */
+}
+
+.c3{
+  /* border: 1px solid rgb(0, 0, 0); */
+  width: 350px;
+  height: 300px;
+  margin-left: 850px;
+  margin-top: -300px;
+  background-image: url("https://www.swarnamahal.lk/cdn/shop/collections/ES0000004-big.jpg?v=1591086539&width=720");
+  background-size: cover;
+  transition: transform 0.5s ease; /* Smooth zoom */
+}
+
+
+.c1:hover, .c2:hover, .c3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.bimg{
+  width: 100%;
+  height: 300px;
+  background-image: url("https://www.swarnamahal.lk/cdn/shop/files/middle_banner_new_2.png?v=1614329760&width=1000");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; /* මෙන්න මෙය දාලා scroll එක නැති කරන්න */
+}
+
+
+.gift h1{
+  margin-top: -250px;
+  font-weight:normal;
+  margin-left: 50px;
+}
+
+
+
+/* Footer Styles */
+.footer {
+  background-color: #f8f8f8;
+  padding: 40px 20px 20px;
+  margin-top: 40px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  margin-bottom: 30px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #d4af37;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
